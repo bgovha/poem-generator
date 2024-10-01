@@ -57,3 +57,27 @@ header {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+
+#hint{
+    font-size: xx-small;
+    margin-top: 2px;
+    opacity: 0.6;
+}
+.hidden{
+    display: none;
+}
+
+.generating{
+    animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation{
+    to{
+        visibility: hidden;
+    }
+}
+@-webkit-keyframes blink-animation{
+    to{
+        visibility: hidden;
+    }
+}
