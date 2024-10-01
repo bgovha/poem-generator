@@ -1,57 +1,59 @@
-body{
-    background-color: #210440;
-    font-family: Arial, Helvetica, sans-serif;
+body {
+  background-color: #210440;
+  font-family: Arial, Helvetica, sans-serif;
 }
-h1{
-    font-weight: 800;
-    font-size: 36px;
-    line-height: 1.5;
-    color: #ffba00;
-    text-align: center;
+h1 {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  color: #ffba00;
+  text-align: center;
 }
-.container{
-    margin: 120px auto;
-    max-width: 600px;
-    background-color: #fdb095;
-    border-radius: 20px;
-    padding: 40px;
-    box-shadow:2px 2px 5px #e5958E;
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+  background-color: #fdb095;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 2px 2px 5px #e5958e;
 }
-footer{
-    text-align: center;
-    color: #ffba00;
+footer {
+  text-align: center;
+  color: #ffba00;
 }
-header{
-    margin:0%;
-    padding: 0%;
+header {
+  margin: 0%;
+  padding: 0%;
 }
-.form-input{
-    padding: 5px;
-    background-color: white;
-    border-radius: 20px;
-    border: 1px solid #e5958E;
-    font-size: 20px;
-    width: 80%;
-    line-height: 20px;
+.form-input {
+  padding: 5px;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid #e5958e;
+  font-size: 20px;
+  width: 80%;
+  line-height: 20px;
+}
+.submit-button {
+  margin-left: 10px;
+  background-color: #210440;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 10px;
+  font-size: 13px;
+  width: 90px;
+}
 
-}
-.submit-button{
-    margin-left: 10px;
-    background-color: #210440;
-    color: white;
-    border: none;
-    border-radius: 20px;
-    padding: 10px 10px;
-    font-size: 13px;
-    width: 90px;
-}
-
-.poem{
-    font-size: 14px;
-    padding: 20px;
-    line-height: 25px;
-    border-left: solid #210440;
-    box-shadow: 0px 20px 60px #fdb095;
-    border-radius: 10px;
-    text-align: center;
+.poem {
+  font-size: 14px;
+  padding: 20px;
+  line-height: 25px;
+  border-left: solid #210440;
+  box-shadow: 0px 20px 60px #fdb095;
+  border-radius: 10px;
+  text-align: center;
+  font-style: italic;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
